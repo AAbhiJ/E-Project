@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="213.483" height="775.435" viewBox="0 0 213.483 775.435">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="-16.448" width="213.483" height="775.435" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(0 16.448)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="171.5" cy="353" rx="171.5" ry="353" transform="translate(152.443 -16.448) rotate(17)" fill="#ffc33d"/>
+  </g>
+</svg>
