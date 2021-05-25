@@ -1,4 +1,4 @@
-# E-Project
+# AnalyzeElasticProject
 In Query tester  we searched for all the words that match the following letter or word present in 
 data or json file and gives analysis.
 
