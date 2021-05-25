@@ -1,0 +1,5 @@
+"studs":[
+	{name: "John", age: 31, city: "New York"},
+	{name: "abhi", age: 18, city: "Pune"}
+	{name: "Aditya", age: 25, city: "Mumbai"}
+]
