@@ -16,6 +16,7 @@ body{
     --white-color:white;
     --grey-color:#EAEEF4;
     --light-grey:#707070;
+    --black-color:#000;
 }
 
 /* Header */
@@ -113,7 +114,7 @@ header a{
     place-items: center;
 }
 
-.searchBox{
+.box{
     width:900px;
     height:150px;
     background-color: var(--white-color);
@@ -121,7 +122,7 @@ header a{
     border-radius: 10px;
 }
 
-.searchBox input[type="text"]{
+.searchInput{
     width:590px;
     height:70px;
     border:none;
@@ -130,13 +131,63 @@ header a{
     border-radius: 5px;
 }
 
-.searchBox input[type="button"]{
+.buttonS{
     width:165px;
     height:70px;
     border:none;
     border-radius: 5px;
     background-color: var(--primary-color);
     color:var(--white-color);
+}
+
+
+.add{
+    margin-top:20px;
+    height:350px;
+    width:700px;
+    transition: all 0.5s linear;
+    overflow:hidden;
+}
+
+.add .searchInput{
+    height:50px;
+    margin-top:10px;
+}
+
+.hide{
+    height:100px;
+}
+
+.add .buttonS{
+    width:590px;
+    height:50px;
+    margin-top:10px;
+}
+
+#formD{
+    margin-top:20px;
+}
+
+.resultsDiv{
+    /* color:white; */
+    margin-top:50px;
+}
+
+.featuresContainer{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    gap:20px;
+}
+
+.resultCont{
+    display: inline-block;
+    background-color: var(--white-color);
+    color:var(--black-color);
+    border-radius: 5px;
+    width:250px;
+    padding:10px;
+    text-align: center;
 }
 
 /* Features End*/

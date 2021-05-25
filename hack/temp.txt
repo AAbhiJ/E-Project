@@ -138,3 +138,195 @@
 	  "date_established": "1994-10-14T05:00:00Z"
 	}
   ]
+
+
+  [0] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => Pune
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => Abhi
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 18
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.048120398
+                            [id] => doc-60acd17a6d4b9b1133d6125a
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60acd17a6d4b9b1133d6125a
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => mumbai
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => aniket
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 55
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.040841687
+                            [id] => doc-60ad08186d4b9b40a6d61269
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60ad08186d4b9b40a6d61269
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => kokan
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => Amruta
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 18
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.040841687
+                            [id] => doc-60acfd426d4b9b4f19d61265
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60acfd426d4b9b4f19d61265
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => Mumbai
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => Aditya
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 25
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.040841687
+                            [id] => doc-60acd17a6d4b9b1133d6125b
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60acd17a6d4b9b1133d6125b
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => UP
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => Arti
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 25
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.019856805
+                            [id] => doc-60ad014e6d4b9b40a6d61267
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60ad014e6d4b9b40a6d61267
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [city] => Array
+                        (
+                            [raw] => nagpur
+                        )
+
+                    [name] => Array
+                        (
+                            [raw] => aniket
+                        )
+
+                    [age] => Array
+                        (
+                            [raw] => 18
+                        )
+
+                    [_meta] => Array
+                        (
+                            [engine] => vendor
+                            [score] => 0.016853256
+                            [id] => doc-60ad08706d4b9bb5b7d6126b
+                        )
+
+                    [id] => Array
+                        (
+                            [raw] => doc-60ad08706d4b9bb5b7d6126b
+                        )
+
+                )
+
+        )
+
+)
+1
