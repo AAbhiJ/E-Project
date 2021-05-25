@@ -151,46 +151,73 @@
     </section>
     <section class="features">
         <div class="container">
-            <div class="searchBox">
+            <div class="searchBox box">
                 <form action="index.php" method="get" autocomplete="off">
-                    <input type="text" name="Search" id="serachBar" placeholder="Search a DataSet">
-                    <input type="submit" value="Search" id="uploadButton">
+                    <input type="text" name="Search" id="serachBar" placeholder="Search a DataSet" class="searchInput">
+                    <input type="submit" value="Search" id="uploadButton" class="buttonS">
                 </form>
             </div>
-            <div class="add">
+            <div class="add box hide">
+                <h5 class="SearchIcon">Insert <span>></span> </h5>
+            <div class="addForm" id="formD">
             <form action="index.php" method="post" autocomplete="off">
-                <label for="text">
-                    Name
-                </label>
-                <input type="text" name="name" id="fname">
-                <label for="text">
-                    age
-                </label>
-                <input type="text" name="age" id="fname">
-                <label for="text">
-                    city
-                </label>
-                <input type="text" name="city" id="fname">
-                <input type="submit" value="send" name="send">
+                <input type="text" name="name" placeholder="Name" id="nameid" class="searchInput">
+                <input type="text" name="age" placeholder="Age" id="ageid" class="searchInput">
+                <input type="text" name="city" placeholder="City" id="cityid" class="searchInput"><br>
+                <input type="submit" value="send" name="send"  class="buttonS">
             </form>
+            </div>
             </div>
         </div>
 
-        <div class="resultsDiv" style="color:white">
+        <div class="resultsDiv">
+        <div class="container featuresContainer">
             <?php
 
             if(isset($results)){
-                // foreach($results["hits"]["hits"] as $res){
-                print_r($results);
+                $results = json_decode(json_encode(json_decode($results)),true);
+                // echo "<pre>",print_r($results),"</pre>";
+                foreach($results['results'] as $res){
+                // echo "<pre><h1>ASASAS</h1>",print_r($res),"</pre>";
+
+            ?>
+                <div class="resultCont">
+                    <p>Name : <?php echo $res['name']['raw']; ?></p>
+                    <p>Age : <?php echo $res['age']['raw']; ?></p>
+                    <p>City : <?php echo $res['city']['raw']; ?></p>
+                </div>
+            <?php
                 }
-?>
-                
+            }
+            ?>
         </div>
 
     </section>
 
     <!-- Js -->
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    <script>
+        $(()=>{
+            var status = false;
+            $(".SearchIcon").click(()=>{
+                // $("#formD").toggle("slow");
+                if(status){
+                    $(".add").removeClass("hide");
+                    status = false;
+                }
+                else{
+                    $(".add").addClass("hide");
+                    status=true;
+                }
+            })
+
+        })
+    </script>
+
 </body>
 </html>
